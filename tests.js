@@ -22,7 +22,7 @@ describe('sayHello', function () {
         expect(typeof sayHello()).toBe("string");
     })
     it('should return the string "sayHello" when executed', function () {
-        expect(sayHello()).toBe("sayHello!");
+        expect(sayHello()).toBe("sayHello");
     });
     it("should never return 'undefined' when called", function () {
         expect(sayHello()).not.toBe(undefined);
