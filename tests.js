@@ -50,8 +50,14 @@ describe('isEven', function () {
         expect(typeof isEven()).toBe('boolean');
     });
 })
-describe('isVowel', function (){
+describe('isVowel', function () {
     it('should return a boolean when executed', function () {
         expect(typeof isVowel()).toBe('boolean');
     });
 })
+// //need to work on this one some more - a bit more complex for me
+// describe('add', function (){
+//     it('should return a ', function () {
+//
+//     });
+// })
