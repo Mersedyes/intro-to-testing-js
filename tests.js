@@ -45,9 +45,13 @@ describe('isFive', function () {
         expect(typeof isFive()).toBe('boolean');
     });
 })
-describe('isEven', function (){
-        it('should return a boolean when executed', function () {
-            expect(typeof isEven()).toBe('boolean');
-        });
-    }
-) 
+describe('isEven', function () {
+    it('should return a boolean when executed', function () {
+        expect(typeof isEven()).toBe('boolean');
+    });
+})
+describe('isVowel', function (){
+    it('should return a boolean when executed', function () {
+        expect(typeof isVowel()).toBe('boolean');
+    });
+})
