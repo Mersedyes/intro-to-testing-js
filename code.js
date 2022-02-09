@@ -18,3 +18,11 @@ function sayHello(input) {
         return "Hello, World!"
     }
 }
+
+function isFive(input) {
+    return false;
+}
+
+function isEven(input){
+    return true;
+}
